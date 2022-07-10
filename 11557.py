@@ -10,3 +10,4 @@ for i in range(t):
         drink.append(int(b))
     idx = drink.index(max(drink))
     print(school[idx])
+    
