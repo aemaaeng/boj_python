@@ -13,7 +13,7 @@ while True:
         if num % i == 0:
             divisor.append(i)
 
-    # sum 변수가 n과 같은지 판단하고 결과 출력하기
+    # 약수들의 합이 n과 같은지 판단하고 결과 출력하기
     if sum(divisor) == num:
         res = "{} = {}".format(num, divisor[0])
 
