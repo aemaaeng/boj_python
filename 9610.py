@@ -8,7 +8,7 @@ axis = 0
 for _ in range(int(input())):
     x, y = map(int, input().split())
 
-    # AXIS: x는 양수 or 0, y는 0
+    # AXIS: x 또는 y가 0
     if y == 0 or x == 0:
         axis += 1
     
